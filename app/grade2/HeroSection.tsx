@@ -13,12 +13,12 @@ const container = {
 
 const fadeUp = {
   hidden: { opacity: 0, y: 32 },
-  show: { opacity: 1, y: 0, transition: { duration: 0.55, ease: 'easeOut' } },
+  show: { opacity: 1, y: 0, transition: { duration: 0.55, ease: 'easeOut' as const } },
 };
 
 const fadeIn = {
   hidden: { opacity: 0, scale: 0.96, x: -24 },
-  show: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.65, ease: 'easeOut' } },
+  show: { opacity: 1, scale: 1, x: 0, transition: { duration: 0.65, ease: 'easeOut' as const } },
 };
 
 export default function HeroSection() {

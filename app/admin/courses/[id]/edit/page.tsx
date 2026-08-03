@@ -1,7 +1,7 @@
 'use client';
 import { useEffect, useState } from 'react';
 import { useParams } from 'next/navigation';
-import API from '../../../lib/adminApi';
+import API from '../../../../lib/adminApi';
 import CourseForm from '../../CourseForm';
 
 export default function EditCoursePage() {
