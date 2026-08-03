@@ -35,7 +35,7 @@ export default function HeroSection() {
 
       <div className="hero1-bg-img">
         <Image
-          src="/b1.webp"
+          src="/th2.webp"
           alt=""
           fill
           style={{ objectFit: 'cover', objectPosition: 'center' }}
@@ -155,7 +155,7 @@ export default function HeroSection() {
                 background: 'linear-gradient(135deg, rgba(108,99,255,.15) 0%, transparent 60%)',
               }} />
               <Image
-                src="/b1.webp"
+                src="/th2.webp"
                 alt="تانية ثانوي - Programming & AI"
                 fill
                 style={{ objectFit: 'cover' }}
